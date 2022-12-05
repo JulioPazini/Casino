@@ -1,0 +1,20 @@
+{
+  "name": "casino",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/JulioPazini/Casino.git",
+  "author": "juliopazini <juliopazini@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "allure:generate": "yarn allure generate --clean ./test-report/allure-results/ -o ./test-report/allure-report"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/support/steps"
+  },
+  "dependencies": {
+    "@shelex/cypress-allure-plugin": "^2.34.0",
+    "allure-commandline": "^2.20.1",
+    "cypress": "^11.2.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  }
+}

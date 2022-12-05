@@ -1,0 +1,14 @@
+# dependencies
+/node_modules
+
+# report
+/test-report
+/allure-report
+
+# cypress
+/cypress/downloads
+/cypress/screenshots
+/cypress/videos
+
+# Logs
+yarn-error.log*
