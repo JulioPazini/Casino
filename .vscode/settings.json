@@ -1,4 +1,0 @@
-{
-  "npm.packageManager": "yarn",
-  "cucumberautocomplete.steps": "cypress/support/steps/*.js"
-}
