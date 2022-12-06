@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "allure:generate": "yarn allure generate --clean ./test-report/allure-results/ -o ./test-report/allure-report",
-    "cy:run": "cypress run --config video=false --env allure=true"
+    "cy:run": "cypress run --config video=false --env allure=true",
+    "ci:cy:run": "cypress run --browser chrome --config video=false --env allure=true"
   },
   "cypress-cucumber-preprocessor": {
     "step_definitions": "cypress/support/steps"
