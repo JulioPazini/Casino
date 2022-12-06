@@ -13,8 +13,6 @@ module.exports = defineConfig({
       return require('./cypress/plugins/index.js')(on, config);
     },
     specPattern: 'cypress/e2e/**/*.feature',
-    baseUrl: 'https://casinoscanada.com/',
-    baseUrl1: 'https://casinosvizzera.org/', 
-    baseUrl2: 'https://casinon.info/'
+    baseUrl: 'https://casinoscanada.com/'
   },
 });
