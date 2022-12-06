@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Dec 06 19:11:32 GMT 2022","Tue Dec 06 19:11:33 GMT 2022","706","","Valitadion for the website https://casinoscanada.com","","","","Should show a list of Top 10 casinos",""
+"passed","Tue Dec 06 19:11:33 GMT 2022","Tue Dec 06 19:11:40 GMT 2022","6669","","Valitadion for the website https://casinoscanada.com","","","","Show the result of filtering casinos",""
+"passed","Tue Dec 06 19:11:30 GMT 2022","Tue Dec 06 19:11:32 GMT 2022","2311","","Valitadion for the website https://casinoscanada.com","","","","Open headers menu",""
