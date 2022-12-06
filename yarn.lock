@@ -2062,6 +2062,11 @@ cypress-cucumber-preprocessor@^4.3.1:
     minimist "^1.2.5"
     through "^2.3.8"
 
+cypress-real-events@^1.7.4:
+  version "1.7.4"
+  resolved "https://registry.yarnpkg.com/cypress-real-events/-/cypress-real-events-1.7.4.tgz#87780ee0f6669ee30ce52016c4bfc94d094a6e3d"
+  integrity sha512-bAlIf3w6uJa72hcbLFpQIl/hBoNGYnSVzFMgohefWcooyZz2WbFZdFAEDOl5qOPATtAU01o92sWvc2QW9eT8aA==
+
 cypress@^11.2.0:
   version "11.2.0"
   resolved "https://registry.yarnpkg.com/cypress/-/cypress-11.2.0.tgz#63edef8c387b687066c5493f6f0ad7b9ced4b2b7"

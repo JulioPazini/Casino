@@ -1,5 +1,6 @@
 import './commands';
 import '@shelex/cypress-allure-plugin';
+import "cypress-real-events";
 
 // Hide fetch/XHR requests
 const app = window.top;
@@ -11,3 +12,7 @@ if (!app.document.head.querySelector('[data-hide-command-log-request]')) {
 
   app.document.head.appendChild(style);
 }
+
+Cypress.on("window:before:load", window => {
+  window.document.cookie = 'cookie-policy-accepted=true';
+});

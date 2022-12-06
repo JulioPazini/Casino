@@ -6,7 +6,8 @@
   "author": "juliopazini <juliopazini@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "allure:generate": "yarn allure generate --clean ./test-report/allure-results/ -o ./test-report/allure-report"
+    "allure:generate": "yarn allure generate --clean ./test-report/allure-results/ -o ./test-report/allure-report",
+    "cy:run": "cypress run --config video=false --env allure=true"
   },
   "cypress-cucumber-preprocessor": {
     "step_definitions": "cypress/support/steps"
@@ -15,6 +16,7 @@
     "@shelex/cypress-allure-plugin": "^2.34.0",
     "allure-commandline": "^2.20.1",
     "cypress": "^11.2.0",
-    "cypress-cucumber-preprocessor": "^4.3.1"
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-real-events": "^1.7.4"
   }
 }
