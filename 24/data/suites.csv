@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Dec 20 01:12:17 GMT 2022","Tue Dec 20 01:12:17 GMT 2022","54","","Valitadion for the api https://reqres.in/api","","","","Should not return invalid information from the user",""
+"passed","Tue Dec 20 01:12:17 GMT 2022","Tue Dec 20 01:12:17 GMT 2022","61","","Valitadion for the api https://reqres.in/api","","","","Should return an existing user",""
+"passed","Tue Dec 20 01:12:17 GMT 2022","Tue Dec 20 01:12:17 GMT 2022","296","","Valitadion for the api https://reqres.in/api","","","","Should return a list with all users (example #1)",""
+"failed","Tue Dec 20 01:12:29 GMT 2022","Tue Dec 20 01:12:57 GMT 2022","28342","","Valitadion for the website https://casinoscanada.com","","","","Show the result of filtering casinos",""
+"passed","Tue Dec 20 01:12:17 GMT 2022","Tue Dec 20 01:12:17 GMT 2022","277","","Valitadion for the api https://reqres.in/api","","","","Should return a list with all resources (example #2)",""
+"passed","Tue Dec 20 01:12:23 GMT 2022","Tue Dec 20 01:12:27 GMT 2022","4066","","Valitadion for the website https://casinoscanada.com","","","","Open headers menu",""
+"passed","Tue Dec 20 01:12:27 GMT 2022","Tue Dec 20 01:12:29 GMT 2022","1874","","Valitadion for the website https://casinoscanada.com","","","","Should show a list of Top 10 casinos",""
